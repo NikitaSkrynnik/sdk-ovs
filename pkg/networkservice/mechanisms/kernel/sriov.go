@@ -25,15 +25,15 @@ import (
 	"context"
 
 	"github.com/Mellanox/sriovnet"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/vfconfig"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/kernel"
+	"github.com/NikitaSkrynnik/sdk-kernel/pkg/kernel/networkservice/vfconfig"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 	"github.com/ovn-org/ovn-kubernetes/go-controller/pkg/util"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-ovs/pkg/tools/ifnames"
-	ovsutil "github.com/networkservicemesh/sdk-ovs/pkg/tools/utils"
+	"github.com/NikitaSkrynnik/sdk-ovs/pkg/tools/ifnames"
+	ovsutil "github.com/NikitaSkrynnik/sdk-ovs/pkg/tools/utils"
 )
 
 func setupVF(ctx context.Context, logger log.Logger, conn *networkservice.Connection, bridgeName string,

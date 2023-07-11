@@ -1,15 +1,15 @@
-module github.com/networkservicemesh/sdk-ovs
+module github.com/NikitaSkrynnik/sdk-ovs
 
 go 1.20
 
 require (
 	github.com/Mellanox/sriovnet v1.0.3-0.20210630121212-0453bd4b7fbc
+	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711064140-46e8d97d94b8
+	github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230711065033-29e761706a65
+	github.com/NikitaSkrynnik/sdk-sriov v0.0.0-20230711065511-be3e0ff003e4
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/golang/protobuf v1.5.3
-	github.com/networkservicemesh/api v1.9.1-0.20230627143611-9785eacf9687
-	github.com/networkservicemesh/sdk v0.5.1-0.20230710100721-01bb35f8c3d6
-	github.com/networkservicemesh/sdk-kernel v0.0.0-20230710101045-a25e30ad5d4f
-	github.com/networkservicemesh/sdk-sriov v0.0.0-20230710101603-bbccb51d433a
 	github.com/ovn-org/ovn-kubernetes/go-controller v0.0.0-20210826171620-f06c53111a31
 	github.com/pkg/errors v0.9.1
 	github.com/vishvananda/netlink v1.2.1-beta.2.0.20220630165224-c591ada0fb2b
@@ -88,14 +88,14 @@ require (
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
-	golang.org/x/mod v0.11.0 // indirect
+	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/net v0.11.0 // indirect
-	golang.org/x/oauth2 v0.9.0 // indirect
+	golang.org/x/oauth2 v0.6.0 // indirect
 	golang.org/x/sys v0.9.0 // indirect
 	golang.org/x/term v0.9.0 // indirect
 	golang.org/x/text v0.10.0 // indirect
-	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.10.0 // indirect
+	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect

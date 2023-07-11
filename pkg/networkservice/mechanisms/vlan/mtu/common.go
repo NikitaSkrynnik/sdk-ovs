@@ -22,11 +22,11 @@ package mtu
 import (
 	"time"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	ovsutil "github.com/networkservicemesh/sdk-ovs/pkg/tools/utils"
+	ovsutil "github.com/NikitaSkrynnik/sdk-ovs/pkg/tools/utils"
 )
 
 func getMTU(l2CP *ovsutil.L2ConnectionPoint, logger log.Logger) (uint32, error) {

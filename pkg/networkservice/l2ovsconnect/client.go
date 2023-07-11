@@ -22,17 +22,17 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/postpone"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/utils/metadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/postpone"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	vlanmech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vlan"
+	vlanmech "github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/vlan"
 
-	"github.com/networkservicemesh/sdk-ovs/pkg/tools/ifnames"
+	"github.com/NikitaSkrynnik/sdk-ovs/pkg/tools/ifnames"
 )
 
 type l2ConnectClient struct {
