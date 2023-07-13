@@ -5,9 +5,9 @@ go 1.20
 require (
 	github.com/Mellanox/sriovnet v1.0.3-0.20210630121212-0453bd4b7fbc
 	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712072113-f66ab1de5cd5
-	github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230712072244-7fd9fa9f7040
-	github.com/NikitaSkrynnik/sdk-sriov v0.0.0-20230712072444-eca614d43998
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713061422-bf4718c1cfef
+	github.com/NikitaSkrynnik/sdk-kernel v0.0.0-20230713061608-fde29282b01f
+	github.com/NikitaSkrynnik/sdk-sriov v0.0.0-20230713061756-b0b24b643b60
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/golang/protobuf v1.5.3
 	github.com/ovn-org/ovn-kubernetes/go-controller v0.0.0-20210826171620-f06c53111a31
